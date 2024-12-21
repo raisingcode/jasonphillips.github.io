@@ -1,0 +1,2 @@
+sudo docker run --rm -it -p 4000:4000 -v "$PWD:/srv/jekyll" jekyll/jekyll:latest jekyll build --trace
+sudo docker run --rm -it -p 4000:4000 -v "$PWD:/srv/jekyll" jekyll/jekyll:latest jekyll serve --trace
